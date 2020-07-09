@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <h2>stopwatch</h2>
+            </div>
+         </div>
+        <div class="row mt-5">
+                <div class="col justify-content-md-center"><p>Minutes</p><h1 id="min">0</h1></div>
+                <div class="col justify-content-md-center"><p>Seconds</p><h1 id="sec">0</h1></div>
+                <div class="col justify-content-md-center"><p>mSeconds</p><h1 id="msec">0</h1></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col justify-content-md-center"><button onclick="start()" id="start">Start</button></div>
+            <div class="col justify-content-md-center"><button onclick="stop()">Stop</button></div>
+            <div class="col justify-content-md-center"><button onclick="reset()">Reset</button></div>
+           
+        </div>
+        <div class="row mt-5">
+            <div class="col justify-content-md-center ">
+                <h2 id="end">designed by Ghayyas Ahmed</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
